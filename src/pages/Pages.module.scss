@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Chathura:wght@100;300;400;700;800&family=Ojuju:wght@200..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rouge+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Anybody:ital,wght@0,100..900;1,100..900&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Chathura:wght@100;300;400;700;800&family=Ojuju:wght@200..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rouge+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Anybody:ital,wght@0,100..900;1,100..900&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Chathura:wght@100;300;400;700;800&family=Handlee&family=Ojuju:wght@200..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rouge+Script&display=swap');
+
+%container {
+    max-width: 900px;
+    width: 100%;
+    padding: 40px;
+    
+}
+
+
+
+.title-2 {
+    font-size: 42px;
+    margin-bottom: 24px;
+    font-family: "Handlee", cursive;
+}
+
+.about {
+    @extend %container;
+    padding: 0 40px;
+    font-family: "Anybody", sans-serif;
+
+    &-desc {
+
+        &>*+* {
+            margin-top: 16px;
+        }
+    }
+
+    &-image {
+        // height: (100vh / 3);
+        overflow: hidden;
+        margin: 16px 0;
+        width: 300px;
+        
+      
+    }
+}
+
+.blockqoute {
+    font-size: 18px;
+    padding: 15px 40px;
+    border-left: 3px solid #f24137;
+}
+
+.title-3 {
+    font-size: 26px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.article-item-text {
+    color: #797979;
+   
+}
+
+.article-item-image {
+    height: (100vh / 3);
+    overflow: hidden;
+}
+
+.article-item-link {
+    color: #235e91;
+}
+
+.contact {
+    &-text {
+        margin-bottom: 24px;
+    }
+
+    &-list {
+        padding: 20px 40px;
+
+        &>*+* {
+            margin-top: 15px;
+        }
+    }
+}
+
+.services-list {
+    @extend .contact-list;
+}
+
+.services-text {
+    @extend .contact-text;
+}

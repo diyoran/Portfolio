@@ -11,7 +11,7 @@ const App = () => {
     <Fragment>
       <header className={AppStyle["header"]}>
         <h1 className={AppStyle["title-1"]} >
-          Nigmanjanova Diyora - front-end developer
+          Nigmanjanova Diyora nemo - front-end developer
         </h1>
 
         <p className={AppStyle["subtitle"]}>

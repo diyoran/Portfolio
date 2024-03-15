@@ -24,14 +24,13 @@ const Contacts = () => {
           <li>
             <a href="https://t.me/nemo_3012" target='_blank'>Telegram</a>
           </li>
-
+          <li>
+            <a href="https://github.com/diyoran" target='_blank'>GitHub</a>
+          </li>
           <li>
             <a href="#" target='_blank'>Instagram</a>
           </li>
 
-          <li>
-            <a href="#" target='_blank'>Facebook</a>
-          </li>
 
         </ul>
       </section>

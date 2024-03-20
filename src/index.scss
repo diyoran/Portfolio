@@ -20,3 +20,42 @@ body {
 a {
     color: inherit;
 }
+
+@media (min-width: 1200px) {
+    ._title-1_g47aa_14 {
+        text-align: center;
+    }
+
+
+    ._header-menu_g47aa_4 {
+        margin-left: 200px;
+        gap: 50px;
+        display: flex;
+        padding-left: 220px;
+    }
+    
+    ._main_g47aa_4, ._footer_g47aa_4,  ._subtitle_g47aa_4 {
+        margin-left: 200px;
+    }
+
+
+}
+@media (min-width: 1300px) {
+    ._title-1_g47aa_14 {
+        text-align: center;
+    }
+
+
+    ._header-menu_g47aa_4 {
+        margin-left: 500px;
+        gap: 100px;
+        display: flex;
+        padding-left: 120px;
+    }
+    
+    ._main_g47aa_4, ._footer_g47aa_4,  ._subtitle_g47aa_4 {
+        margin-left: 500px;
+    }
+
+
+}
